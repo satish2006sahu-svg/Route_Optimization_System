@@ -1,0 +1,240 @@
+{
+  "cities": [
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "lat": 28.6139,
+      "lng": 77.209
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    {
+      "id": "bangalore",
+      "name": "Bangalore",
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    {
+      "id": "chennai",
+      "name": "Chennai",
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    {
+      "id": "kolkata",
+      "name": "Kolkata",
+      "lat": 22.5726,
+      "lng": 88.3639
+    },
+    {
+      "id": "hyderabad",
+      "name": "Hyderabad",
+      "lat": 17.385,
+      "lng": 78.4867
+    },
+    {
+      "id": "pune",
+      "name": "Pune",
+      "lat": 18.5204,
+      "lng": 73.8567
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    {
+      "id": "lucknow",
+      "name": "Lucknow",
+      "lat": 26.8467,
+      "lng": 80.9462
+    },
+    {
+      "id": "ahmedabad",
+      "name": "Ahmedabad",
+      "lat": 23.0225,
+      "lng": 72.5714
+    },
+    {
+      "id": "patna",
+      "name": "Patna",
+      "lat": 25.6093,
+      "lng": 85.1376
+    },
+    {
+      "id": "bhopal",
+      "name": "Bhopal",
+      "lat": 23.2599,
+      "lng": 77.4126
+    }
+  ],
+  "roads": [
+    {
+      "id": "r1",
+      "source": "delhi",
+      "destination": "jaipur",
+      "weight": 277.5,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 277.5
+    },
+    {
+      "id": "r2",
+      "source": "delhi",
+      "destination": "lucknow",
+      "weight": 482.4,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 482.4
+    },
+    {
+      "id": "r3",
+      "source": "jaipur",
+      "destination": "ahmedabad",
+      "weight": 649.3,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 649.3
+    },
+    {
+      "id": "r4",
+      "source": "ahmedabad",
+      "destination": "mumbai",
+      "weight": 518.8,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 518.8
+    },
+    {
+      "id": "r5",
+      "source": "mumbai",
+      "destination": "pune",
+      "weight": 144.8,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 144.8
+    },
+    {
+      "id": "r6",
+      "source": "pune",
+      "destination": "hyderabad",
+      "weight": 559.1,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 559.1
+    },
+    {
+      "id": "r7",
+      "source": "hyderabad",
+      "destination": "bangalore",
+      "weight": 566.7,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 566.7
+    },
+    {
+      "id": "r8",
+      "source": "bangalore",
+      "destination": "chennai",
+      "weight": 326.8,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 326.8
+    },
+    {
+      "id": "r9",
+      "source": "chennai",
+      "destination": "kolkata",
+      "weight": 1673.7,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 1673.7
+    },
+    {
+      "id": "r10",
+      "source": "kolkata",
+      "destination": "patna",
+      "weight": 606.9,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 606.9
+    },
+    {
+      "id": "r11",
+      "source": "patna",
+      "destination": "lucknow",
+      "weight": 501.8,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 501.8
+    },
+    {
+      "id": "r12",
+      "source": "lucknow",
+      "destination": "bhopal",
+      "weight": 611.8,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 611.8
+    },
+    {
+      "id": "r13",
+      "source": "bhopal",
+      "destination": "mumbai",
+      "weight": 772.9,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 772.9
+    },
+    {
+      "id": "r14",
+      "source": "delhi",
+      "destination": "bhopal",
+      "weight": 771.7,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 771.7
+    },
+    {
+      "id": "r15",
+      "source": "hyderabad",
+      "destination": "chennai",
+      "weight": 623.6,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 623.6
+    },
+    {
+      "id": "r16",
+      "source": "jaipur",
+      "destination": "bhopal",
+      "weight": 596.8,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 596.8
+    },
+    {
+      "id": "r17",
+      "source": "kolkata",
+      "destination": "lucknow",
+      "weight": 988.6,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 988.6
+    },
+    {
+      "id": "r18",
+      "source": "pune",
+      "destination": "bangalore",
+      "weight": 839.7,
+      "isDirected": false,
+      "trafficMultiplier": 1.0,
+      "effectiveWeight": 839.7
+    }
+  ]
+}
